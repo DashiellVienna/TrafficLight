@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="height" constant="418" id="sjO-GB-BnJ"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyv-TP-z89">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyv-TP-z89" userLabel="Start Button">
                                 <rect key="frame" x="115" y="692.33333333333337" width="172" height="47.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="bhv-Ow-Bt9"/>
@@ -50,6 +50,9 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pfl-BL-VDp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -62,10 +65,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenLIghtView" destination="zo3-bV-3Fl" id="BxI-Ul-ynl"/>
-                        <outlet property="redLightView" destination="Mvc-O9-bSb" id="DvR-ne-ZSl"/>
-                        <outlet property="startButton" destination="Hyv-TP-z89" id="k4t-bR-TOw"/>
-                        <outlet property="yellowLightView" destination="PvO-av-6Dz" id="SwX-nu-hXn"/>
+                        <outlet property="greenView" destination="zo3-bV-3Fl" id="x6p-70-TWq"/>
+                        <outlet property="redView" destination="Mvc-O9-bSb" id="e8c-8v-xrw"/>
+                        <outlet property="startButton" destination="Hyv-TP-z89" id="xDZ-Az-UvL"/>
+                        <outlet property="yellowView" destination="PvO-av-6Dz" id="1qU-DE-PYK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
