@@ -61,6 +61,12 @@
                             <constraint firstItem="pGM-37-nhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tca-BN-0hK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLIghtView" destination="zo3-bV-3Fl" id="BxI-Ul-ynl"/>
+                        <outlet property="redLightView" destination="Mvc-O9-bSb" id="DvR-ne-ZSl"/>
+                        <outlet property="startButton" destination="Hyv-TP-z89" id="k4t-bR-TOw"/>
+                        <outlet property="yellowLightView" destination="PvO-av-6Dz" id="SwX-nu-hXn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
